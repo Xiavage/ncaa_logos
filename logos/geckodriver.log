@@ -1,0 +1,33 @@
+1634862636666	geckodriver	INFO	Listening on 127.0.0.1:54424
+1634862639695	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\alber\\AppData\\Local\\Temp\\rust_mozprofile0Fj2UB"
+1634862639996	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alber\\AppData\\Local\\Temp\\rust_mozprofile0Fj2UB\\search.json.mozlz4", (void 0)))
+1634862642105	Marionette	INFO	Listening on port 54434
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634862642355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634862786202	Marionette	INFO	Stopped listening on port 54434
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alber\\AppData\\Local\\Temp\\rust_mozprofileLQRxh7\\search.json.mozlz4", (void 0)))
+1634862774059	Marionette	INFO	Listening on port 55587
+1634862774135	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634862776601	Marionette	INFO	Stopped listening on port 55587
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: https://www.gstatic.com/_/mss/boq-search/_/js/k=boq-search.VisualFrontendUi.en_US.6hdtP3FI9Lk.es5.O/am=EvgA45CxPwEAwQEcAACFKmcwAAEACEJkAAYMZAdkgEADDYpjAggBJ8IEAIAAFwcspcAAAAAQUMBFmUAAAAgAgQEQgikQABAaAwDuAKgAAAAAAAAQ93jgAQQAAAAAAAAACCNiAAAAAAAAaCIAAAAAAAAC/d=1/excm=_b,_tp,searchview/ed=1/dg=0/wt=2/esmo=1/rs=AH7-fg5VzqmzX_VIZLb6wOnMEy0hLM_kyQ/m=_b,_tp, line 966: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+[Parent 19084, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634862777932	geckodriver	INFO	Listening on 127.0.0.1:55654
+1634862780981	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\alber\\AppData\\Local\\Temp\\rust_mozprofile44SPVq"
+1634862781291	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alber\\AppData\\Local\\Temp\\rust_mozprofile44SPVq\\search.json.mozlz4", (void 0)))
+1634862785040	Marionette	INFO	Listening on port 55665
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634862786913	Marionette	INFO	Stopped listening on port 55665
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 18504, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

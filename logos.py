@@ -60,6 +60,10 @@ def google_search_logos(school):
     college_logo = driver.find_element_by_xpath(
         '/html/body/div[2]/c-wiz/div[3]/div[1]/div/div/div/div[1]/div[1]/span/div[1]/div[1]/div[1]/a[1]/div[1]/img')
     college_logo.click()
+    # print(os.getcwd())
+    # os.chdir(logo_path)
+    # print(os.getcwd())
+    logo_path = str(logo_path) + '/' + school + '.png'
     src = college_logo.get_attribute('src')
     # save the picture into a directory (logos)
     urllib.request.urlretrieve(src, logo_path)
