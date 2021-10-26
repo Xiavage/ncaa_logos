@@ -5,7 +5,7 @@ from pathlib import Path
 import pandas as pd
 from selenium import webdriver
 
-df = pd.read_csv('d1_colleges.csv')
+df = pd.read_csv('redo_colleges.csv')
 
 # def wait_for_element(driver, byType, byValue, maxWait: int):
 #     """
@@ -34,7 +34,7 @@ df = pd.read_csv('d1_colleges.csv')
 
 
 def google_search_logos(school):
-
+    # print (school)
     google_query = school + " logo"
 
     # print(google_query)
